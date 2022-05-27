@@ -1,0 +1,51 @@
+<svg
+  width="449"
+  height="438"
+  viewBox="0 0 449 438"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+<path
+    d="M180.6 334.25H268.4"
+    stroke="white"
+    stroke-width="9"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+<path
+    d="M5 334.25V114.75C5 26.95 26.95 5 114.75 5"
+    stroke="white"
+    stroke-width="9"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+<path
+    d="M444 334.25V114.75C444 26.95 422.05 5 334.25 5"
+    stroke="white"
+    stroke-width="9"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+<path
+    d="M180.6 299.35V371.565C180.6 415.465 163.04 433.025 119.14 433.025H66.46C22.56 433.025 5 415.465 5 371.565V299.35C5 255.45 22.56 237.89 66.46 237.89H119.14C163.04 237.89 180.6 255.45 180.6 299.35Z"
+    stroke="white"
+    stroke-width="9"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+<path
+    d="M444 299.35V371.565C444 415.465 426.44 433.025 382.54 433.025H329.86C285.96 433.025 268.4 415.465 268.4 371.565V299.35C268.4 255.45 285.96 237.89 329.86 237.89H382.54C426.44 237.89 444 255.45 444 299.35Z"
+    stroke="white"
+    stroke-width="9"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+<path
+    d="M365.374 328.486H374.127V368.784C374.127 374.751 381.755 378.025 385.847 373.205C385.945 373.089 386.033 372.965 386.109 372.833L413.557 325.086C415.353 322.976 416.546 320.252 415.373 317.685C414.169 315.051 411.195 314.178 408.359 314.178H399.607V273.88C399.607 267.913 391.979 264.638 387.887 269.459C387.789 269.574 387.701 269.699 387.625 269.831L360.177 317.578C358.381 319.688 357.187 322.412 358.361 324.979C359.565 327.613 362.539 328.486 365.374 328.486Z"
+    stroke="white"
+    stroke-width="5"
+    stroke-miterlimit="10"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>

@@ -36,7 +36,6 @@ nav.menu {
 
   position: sticky;
   top: 0;
-
 }
 
 nav.menu ul {
@@ -49,24 +48,62 @@ nav.menu ul {
 }
 
 nav.menu ul *:is(a, a:visited) {
-    color: var(--text-color);
-    text-decoration: none;
+  color: var(--text-color);
+  text-decoration: none;
 }
 
 nav.menu ul a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-nav.menu ul li::after {
-    content: " /";
+nav.menu ul li::before {
+  content: "/ ";
 }
 
-nav.menu ul li:last-of-type a::after {
-    content: none;
+nav.menu ul li:first-of-type::before {
+  content: none;
 }
 
 nav.menu .logo {
-  width: 200px;
-  max-height: 4rem;
-  object-fit: cover;
+  height: 4rem;
+  object-fit: contain;
+}
+
+/* Content */
+
+#app {
+  padding: 0 20vw;
+  padding-top: 1rem;
+
+  color: white;
+}
+
+#app ul {
+  list-style-type: none;
+}
+
+#app ul *:is(a, a:visited) {
+  color: white;
+  text-decoration: none;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+#app ul li {
+  margin-bottom: 1rem;
+}
+#app ul a span {
+  color: var(--primary-super-light);
+  font-size: 1.25rem;
+}
+
+#app ul a:hover {
+  text-decoration: underline;
+}
+
+#app ul a :is(h3, p) {
+  margin: 0;
 }

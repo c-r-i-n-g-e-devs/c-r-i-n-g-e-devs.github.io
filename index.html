@@ -13,7 +13,7 @@
 <body>
 
     <nav class="menu">
-        <img src="http://picsum.photos/200" alt="Logo" class="logo">
+        <img src="./assets/logo.svg" alt="Logo" class="logo">
 
         <ul>
             <li><a href="#">Home</a></li>
@@ -26,14 +26,18 @@
 
     <div id="app">
         <ul>
-            <li> <a href="#" class="tag">
-                    <span> [TW] </span>
-                    <h3>Title</h3>
-                    <p>subtitle</p>
-                </a></li>
+            <li v-for="(data, i) in dictionary" :key="`item-${i}`">
+                <a :href="data.link" class="tag">
+                    <span> [ {{ data.tag }} ] </span>
+                    <h3> {{ data.title }} </h3>
+                    <p> {{ data.subtitle }} </p>
+                </a>
+            </li>
         </ul>
     </div>
 
+    <script src="./scripts/vue.global.js"></script>
+    <script defer src="./scripts/app.js"></script>
 </body>
 
 </html>
