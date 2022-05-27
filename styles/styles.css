@@ -1,0 +1,72 @@
+:root {
+  --primary: #212121;
+  --primary-light: #424242;
+  --primary-super-light: #616161;
+  --primary-accent: #444;
+
+  --text-color: #ffffff;
+
+  --font: "Menlo", "Monaco", "Consolas", "Lucida Console", monospace;
+}
+
+*,
+*::after,
+*::before {
+  transition: all 250ms;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--primary);
+
+  color: var(--text-color);
+  font-family: var(--font);
+
+  position: relative;
+}
+
+nav.menu {
+  margin-top: 1rem;
+  padding: 0 20vw;
+  padding-bottom: 1rem;
+  border-bottom: 1px dotted var(--primary-accent);
+  display: flex;
+  justify-content: space-between;
+
+  position: sticky;
+  top: 0;
+
+}
+
+nav.menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  list-style: none;
+}
+
+nav.menu ul *:is(a, a:visited) {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+nav.menu ul a:hover {
+    text-decoration: underline;
+}
+
+nav.menu ul li::after {
+    content: " /";
+}
+
+nav.menu ul li:last-of-type a::after {
+    content: none;
+}
+
+nav.menu .logo {
+  width: 200px;
+  max-height: 4rem;
+  object-fit: cover;
+}
